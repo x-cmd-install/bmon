@@ -1,41 +1,18 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: newest
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-5
-  status: newest
-  summary: Portable bandwidth monitor and rate estimator
-  licenses:
-    - MIT
-    - BSD
-- repo: deepin_unstable
+- repo: raspbian_oldstable
   subrepo: main
   srcname: bmon
   binnames:
     - bmon
   visiblename: bmon
   version: "4.0"
-  origversion: 1:4.0-5
+  origversion: 1:4.0-10
   status: newest
   maintainers:
     - pmatthaei@debian.org
-- repo: deepin_25
-  subrepo: community
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
   srcname: bmon
   binnames:
     - bmon
@@ -47,84 +24,110 @@
     - pmatthaei@debian.org
   categories:
     - net
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r1
-  status: newest
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r1
-  status: newest
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: newest
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: newest
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: newest
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: bmon
   binnames:
     - bmon
   visiblename: bmon
   version: "4.0"
-  origversion: 1:4.0-7
+  origversion: 1:4.0-10
   status: newest
   maintainers:
     - pmatthaei@debian.org
   categories:
     - net
+- repo: alpine_3_24
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: newest
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: newest
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r1
+  status: newest
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r1
+  status: newest
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: newest
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: newest
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: newest
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: bmon
@@ -217,32 +220,6 @@
   licenses:
     - BSD MIT
 - repo: alpine_3_23
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: newest
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: newest
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_24
   subrepo: community
   srcname: bmon
   binname: bmon
@@ -436,6 +413,72 @@
     - pmatthaei@debian.org
   categories:
     - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-5
+  status: newest
+  maintainers:
+    - pmatthaei@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: newest
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-7
+  status: newest
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: newest
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-2
+  status: newest
+  summary: Bandwidth monitor and rate estimator
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - MIT or BSD
+  categories:
+    - Monitoring
 - repo: epel_7
   srcname: bmon
   visiblename: bmon
@@ -761,6 +804,18 @@
   licenses:
     - MIT
     - BSD
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-5
+  status: newest
+  summary: Portable bandwidth monitor and rate estimator
+  licenses:
+    - MIT
+    - BSD
 - repo: nix_stable_24_05
   srcname: bmon
   visiblename: bmon
@@ -868,21 +923,6 @@
     - MIT or BSD-2-Clause
   categories:
     - System/Monitoring
-- repo: solus
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: null
-  status: newest
-  summary: A command line based bandwidth monitor.
-  maintainers:
-    - jakob@knugen.nu
-  licenses:
-    - BSD-2-Clause
-    - MIT
-  categories:
-    - network.util
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: bmon
@@ -1055,61 +1095,6 @@
     - pmatthaei@debian.org
   categories:
     - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: newest
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: newest
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: newest
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-2
-  status: newest
-  summary: Bandwidth monitor and rate estimator
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - MIT or BSD
-  categories:
-    - Monitoring
 - repo: rosa_13
   subrepo: contrib/release
   srcname: bmon
@@ -1138,6 +1123,21 @@
     - urchlay@slackware.uk
   categories:
     - network
+- repo: solus
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: null
+  status: newest
+  summary: A command line based bandwidth monitor.
+  maintainers:
+    - jakob@knugen.nu
+  licenses:
+    - BSD-2-Clause
+    - MIT
+  categories:
+    - network.util
 - repo: solus
   srcname: bmon
   binname: bmon-dbginfo
@@ -1355,7 +1355,7 @@
   status: newest
   summary: Portable bandwidth monitor and rate estimator
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q28164699
   visiblename: bmon
