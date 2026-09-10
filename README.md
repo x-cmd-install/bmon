@@ -12,6 +12,18 @@ bandwidth monitor and rate estimator
 x install bmon
 ```
 
+## Code insight
+
+Total: **7,955** lines of code across **48** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 6,600 | 757 | 1,524 | 23 |
+| CHeader | 889 | 417 | 279 | 18 |
+| M4 | 293 | 191 | 34 | 1 |
+| Bitbake | 103 | 0 | 9 | 1 |
+| Automake | 68 | 4 | 10 | 5 |
+
 ## Source
 
 - **Upstream**: <https://github.com/tgraf/bmon>
@@ -23,7 +35,6 @@ x install bmon
 - **Latest**: `v4.0` (2016-12-13)
 - **Last commit**: 2026-08-03
 - **Assets in release**: 1
-- **Published**: 2016-12-13T10:58:57Z
 
 ## Popularity
 
@@ -38,28 +49,44 @@ x install bmon
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## Code size
+## Release assets
 
-Total: **7,955** lines of code across **48** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [bmon-4.0.tar.gz](https://github.com/tgraf/bmon/releases/download/v4.0/bmon-4.0.tar.gz) | 197.5 KiB | `native/unknown` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 6,600 | 757 | 1,524 | 23 |
-| CHeader | 889 | 417 | 279 | 18 |
-| M4 | 293 | 191 | 34 | 1 |
-| Bitbake | 103 | 0 | 9 | 1 |
-| Automake | 68 | 4 | 10 | 5 |
+## Distribution status
+
+Reported by **107** distros on [repology.org](https://repology.org/project/bmon). **99** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.0` | ✅ latest |
+| Debian 14 | `4.0` | ✅ latest |
+| Debian 13 | `4.0` | ✅ latest |
+| Ubuntu 26.04 LTS | `4.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `4.0` | ✅ latest |
+| Arch | `4.0` | ✅ latest |
+| Homebrew | `4.0` | ✅ latest |
+| Fedora rawhide | `4.0` | ✅ latest |
+| Nix unstable | `4.0` | ✅ latest |
+| Void | `4.0` | ✅ latest |
+| Alpine edge | `4.0` | ✅ latest |
+| openSUSE Tumbleweed | `4.0` | ✅ latest |
 
 ## Improve this data
 
 Install metadata for bmon lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `bmon` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/bmon.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/bmon.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:47:03Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:31:20Z._
