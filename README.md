@@ -18,7 +18,7 @@ Total: **7,955** lines of code across **48** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 6,600 | 757 | 1,524 | 23 |
+| C | 6,600 | 758 | 1,524 | 23 |
 | CHeader | 889 | 417 | 279 | 18 |
 | M4 | 293 | 191 | 34 | 1 |
 | Bitbake | 103 | 0 | 9 | 1 |
@@ -32,34 +32,27 @@ Total: **7,955** lines of code across **48** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v4.0` (2016-12-13)
-- **Last commit**: 2026-08-03
-- **Assets in release**: 1
+- **Latest**: `v5.0` (2026-09-15)
+- **Last commit**: 2026-09-15
 
 ## Popularity
 
-- **Stars**: 1,388 · **Forks**: 112 · **Open issues**: 62 · **Contributors**: 20
+- **Stars**: 1,389 · **Forks**: 112 · **Open issues**: 62 · **Contributors**: 20
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 47 · **Open PRs**: 4 · **Closed issues**: 28 · **Open issues**: 34 · **Commits**: 201
+- **Releases**: 11 · **Merged PRs**: 47 · **Open PRs**: 4 · **Closed issues**: 28 · **Open issues**: 34 · **Commits**: 202
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [bmon-4.0.tar.gz](https://github.com/tgraf/bmon/releases/download/v4.0/bmon-4.0.tar.gz) | 197.5 KiB | `native/unknown` |
+| 30d | 2026-08-17 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-18 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-18 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-21 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -70,4 +63,4 @@ Install metadata for bmon lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:08:52Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:07:36Z._
