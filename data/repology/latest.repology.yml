@@ -1,64 +1,12 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: bmon
   binnames:
     - bmon
   visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-5
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-7
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
+  version: "5.0"
+  origversion: 1:5.0-1
+  status: newest
   maintainers:
     - pmatthaei@debian.org
   categories:
@@ -89,6 +37,19 @@
     - pmatthaei@debian.org
   categories:
     - net
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-8
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - universe/net
 - repo: raspbian_testing
   subrepo: main
   srcname: bmon
@@ -102,30 +63,188 @@
     - pmatthaei@debian.org
   categories:
     - net
-- repo: pkgsrc_2026_2
-  srcname: net/bmon
+- repo: alpine_3_22
+  subrepo: community
+  srcname: bmon
   binname: bmon
-  visiblename: net/bmon
+  visiblename: bmon
   version: "4.0"
-  origversion: null
+  origversion: 4.0-r2
   status: outdated
-  summary: Interface bandwidth monitor
+  summary: bandwidth monitor and rate estimator
   maintainers:
-    - hsaliak@gmail.com
-  categories:
-    - net
-- repo: pkgsrc_current
-  srcname: net/bmon
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bmon
   binname: bmon
-  visiblename: net/bmon
+  visiblename: bmon
   version: "4.0"
-  origversion: null
+  origversion: 4.0-r1
   status: outdated
-  summary: Interface bandwidth monitor
+  summary: bandwidth monitor and rate estimator
   maintainers:
-    - hsaliak@gmail.com
-  categories:
-    - net
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r1
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: bmon
+  binname: bmon-doc
+  visiblename: bmon-doc
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: bmon
@@ -135,233 +254,6 @@
   origversion: 4.0-r2
   status: outdated
   summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: pkgsrc_2026_3
-  srcname: net/bmon
-  binname: bmon
-  visiblename: net/bmon
-  version: "4.0"
-  origversion: null
-  status: outdated
-  summary: Interface bandwidth monitor
-  maintainers:
-    - hsaliak@gmail.com
-  categories:
-    - net
-- repo: fedora_44
-  subrepo: release
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-15.fc44
-  status: outdated
-  summary: Bandwidth monitor and rate estimator
-  licenses:
-    - BSD-2-Clause and MIT
-  categories:
-    - Unspecified
-- repo: pld
-  srcname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-2
-  status: outdated
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r1
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r1
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-7
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: alpine_3_22
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: bmon
-  binname: bmon-doc
-  visiblename: bmon-doc
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator (documentation)
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
@@ -482,6 +374,19 @@
   summary: bmon is a commandline bandwidth monitor and rate estimator.
   licenses:
     - BSD-2 and MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-7
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
 - repo: debian_12
   subrepo: bookworm/main
   srcname: bmon
@@ -567,19 +472,6 @@
   version: "4.0"
   origversion: 1:4.0-7
   status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "5.0"
-  origversion: 1:5.0-1
-  status: newest
   maintainers:
     - pmatthaei@debian.org
   categories:
@@ -704,6 +596,20 @@
   visiblename: bmon
   version: "4.0"
   origversion: 4.0-13.fc43
+  status: outdated
+  summary: Bandwidth monitor and rate estimator
+  licenses:
+    - BSD-2-Clause and MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-15.fc44
   status: outdated
   summary: Bandwidth monitor and rate estimator
   licenses:
@@ -1079,6 +985,113 @@
     - pmatthaei@debian.org
   categories:
     - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: pkgsrc_2026_2
+  srcname: net/bmon
+  binname: bmon
+  visiblename: net/bmon
+  version: "4.0"
+  origversion: null
+  status: outdated
+  summary: Interface bandwidth monitor
+  maintainers:
+    - hsaliak@gmail.com
+  categories:
+    - net
+- repo: pkgsrc_2026_3
+  srcname: net/bmon
+  binname: bmon
+  visiblename: net/bmon
+  version: "4.0"
+  origversion: null
+  status: outdated
+  summary: Interface bandwidth monitor
+  maintainers:
+    - hsaliak@gmail.com
+  categories:
+    - net
+- repo: pkgsrc_current
+  srcname: net/bmon
+  binname: bmon
+  visiblename: net/bmon
+  version: "4.0"
+  origversion: null
+  status: outdated
+  summary: Interface bandwidth monitor
+  maintainers:
+    - hsaliak@gmail.com
+  categories:
+    - net
+- repo: pld
+  srcname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-2
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-5
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-7
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: bmon
@@ -1233,19 +1246,6 @@
   visiblename: bmon
   version: "4.0"
   origversion: 1:4.0-6
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - universe/net
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-8
   status: outdated
   maintainers:
     - pmatthaei@debian.org
