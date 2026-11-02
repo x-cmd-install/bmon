@@ -1,5 +1,5 @@
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: bmon
   binnames:
     - bmon
@@ -10,18 +10,9 @@
   maintainers:
     - pmatthaei@debian.org
   categories:
-    - net
-- repo: chromebrew
-  srcname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: null
-  status: outdated
-  summary: bmon is a commandline bandwidth monitor and rate estimator.
-  licenses:
-    - BSD-2 and MIT
-- repo: raspbian_stable
-  subrepo: main
+    - universe/net
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: bmon
   binnames:
     - bmon
@@ -32,40 +23,20 @@
   maintainers:
     - pmatthaei@debian.org
   categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "5.0"
-  origversion: 1:5.0-1
-  status: newest
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: debian_11
-  subrepo: bullseye/main
+    - universe/net
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: bmon
   binnames:
     - bmon
   visiblename: bmon
   version: "4.0"
-  origversion: 1:4.0-7
+  origversion: 1:4.0-10
   status: outdated
   maintainers:
     - pmatthaei@debian.org
   categories:
-    - net
-- repo: homebrew
-  srcname: bmon
-  visiblename: bmon
-  version: "5.0"
-  origversion: null
-  status: newest
-  summary: Interface bandwidth monitor
+    - universe/net
 - repo: alpine_3_17
   subrepo: community
   srcname: bmon
@@ -261,6 +232,20 @@
     - fcolista@alpinelinux.org
   licenses:
     - BSD MIT
+- repo: fedora_42
+  subrepo: release
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-12.fc42
+  status: outdated
+  summary: Bandwidth monitor and rate estimator
+  licenses:
+    - BSD-2-Clause and MIT
+  categories:
+    - Unspecified
 - repo: alpine_3_24
   subrepo: community
   srcname: bmon
@@ -368,6 +353,28 @@
     - ido@aur
   licenses:
     - MIT
+- repo: chromebrew
+  srcname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: null
+  status: outdated
+  summary: bmon is a commandline bandwidth monitor and rate estimator.
+  licenses:
+    - BSD-2 and MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-7
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
 - repo: debian_12
   subrepo: bookworm/main
   srcname: bmon
@@ -568,20 +575,6 @@
     - BSD-2-Clause and MIT
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-12.fc42
-  status: outdated
-  summary: Bandwidth monitor and rate estimator
-  licenses:
-    - BSD-2-Clause and MIT
-  categories:
-    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: bmon
@@ -675,6 +668,13 @@
 - repo: homebrew
   srcname: bmon
   visiblename: bmon
+  version: "5.0"
+  origversion: null
+  status: newest
+  summary: Interface bandwidth monitor
+- repo: homebrew
+  srcname: bmon
+  visiblename: bmon
   version: HEAD
   origversion: null
   status: rolling
@@ -706,19 +706,6 @@
     - MIT
   categories:
     - net-analyzer
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
 - repo: liguros_stable
   srcname: net-analyzer/bmon
   visiblename: net-analyzer/bmon
@@ -783,7 +770,7 @@
   binname: bmon
   visiblename: bmon
   version: "4.0"
-  origversion: 4.0-5
+  origversion: 4.0-4
   status: outdated
   summary: Portable bandwidth monitor and rate estimator
   licenses:
@@ -795,7 +782,7 @@
   binname: bmon
   visiblename: bmon
   version: "4.0"
-  origversion: 4.0-5
+  origversion: 4.0-4
   status: outdated
   summary: Portable bandwidth monitor and rate estimator
   licenses:
@@ -920,6 +907,21 @@
     - MIT or BSD-2-Clause
   categories:
     - System/Monitoring
+- repo: solus
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "5.0"
+  origversion: null
+  status: newest
+  summary: A command line based bandwidth monitor.
+  maintainers:
+    - clint@eschberger.info
+  licenses:
+    - BSD-2-Clause
+    - MIT
+  categories:
+    - network.util
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: bmon
@@ -1050,9 +1052,9 @@
 - repo: pld
   srcname: bmon
   visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-2
-  status: outdated
+  version: "5.0"
+  origversion: 5.0-1
+  status: newest
 - repo: pureos_amber
   subrepo: amber/main
   srcname: bmon
@@ -1075,6 +1077,58 @@
   version: "4.0"
   origversion: 1:4.0-7
   status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "5.0"
+  origversion: 1:5.0-1
+  status: newest
   maintainers:
     - pmatthaei@debian.org
   categories:
@@ -1123,21 +1177,16 @@
     - urchlay@slackware.uk
   categories:
     - network
-- repo: solus
-  srcname: bmon
-  binname: bmon
+- repo: wikidata
+  srcname: Q28164699
   visiblename: bmon
   version: "5.0"
   origversion: null
   status: newest
-  summary: A command line based bandwidth monitor.
-  maintainers:
-    - clint@eschberger.info
+  summary: bandwidth monitoring software
   licenses:
-    - BSD-2-Clause
-    - MIT
-  categories:
-    - network.util
+    - BSD licenses
+    - MIT License
 - repo: solus
   srcname: bmon
   binname: bmon-dbginfo
@@ -1251,45 +1300,6 @@
     - pmatthaei@debian.org
   categories:
     - universe/net
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - universe/net
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - universe/net
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - universe/net
 - repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: bmon
@@ -1340,13 +1350,3 @@
   summary: Portable bandwidth monitor and rate estimator
   maintainers:
     - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q28164699
-  visiblename: bmon
-  version: "5.0"
-  origversion: null
-  status: newest
-  summary: bandwidth monitoring software
-  licenses:
-    - BSD licenses
-    - MIT License
