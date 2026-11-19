@@ -1,14 +1,13 @@
-- repo: deepin_unstable
-  subrepo: main
+- repo: starkos
+  subrepo: extra
   srcname: bmon
-  binnames:
-    - bmon
   visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-5
-  status: outdated
+  version: "5.0"
+  origversion: 5.0-1
+  status: newest
+  summary: Portable bandwidth monitor and rate estimator
   maintainers:
-    - pmatthaei@debian.org
+    - starkos@disroot.org
 - repo: alpine_3_17
   subrepo: community
   srcname: bmon
@@ -83,19 +82,6 @@
   origversion: 4.0-r2
   status: outdated
   summary: bandwidth monitor and rate estimator (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - BSD MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bmon
-  binname: bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 4.0-r2
-  status: outdated
-  summary: bandwidth monitor and rate estimator
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
@@ -111,6 +97,19 @@
     - BSD and GPLv2
   categories:
     - Unspecified
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bmon
+  binname: bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-r2
+  status: outdated
+  summary: bandwidth monitor and rate estimator
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - BSD MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: bmon
@@ -241,6 +240,19 @@
     - fcolista@alpinelinux.org
   licenses:
     - BSD MIT
+- repo: raspbian_stable
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-10
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
 - repo: alpine_edge
   subrepo: community
   srcname: bmon
@@ -396,6 +408,17 @@
     - pmatthaei@debian.org
   categories:
     - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-5
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: bmon
@@ -424,6 +447,19 @@
     - net
 - repo: devuan_unstable
   subrepo: unstable/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "5.0"
+  origversion: 1:5.0-1
+  status: newest
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
   srcname: bmon
   binnames:
     - bmon
@@ -558,6 +594,20 @@
   visiblename: bmon
   version: "4.0"
   origversion: 4.0-15.fc44
+  status: outdated
+  summary: Bandwidth monitor and rate estimator
+  licenses:
+    - BSD-2-Clause and MIT
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 4.0-16.fc45
   status: outdated
   summary: Bandwidth monitor and rate estimator
   licenses:
@@ -785,19 +835,6 @@
     - mail@pascal-wittmann.de
   licenses:
     - BSD-2-Clause
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-7
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
 - repo: nix_stable_25_05
   srcname: bmon
   visiblename: bmon
@@ -1016,6 +1053,19 @@
     - pmatthaei@debian.org
   categories:
     - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: bmon
+  binnames:
+    - bmon
+  visiblename: bmon
+  version: "4.0"
+  origversion: 1:4.0-7
+  status: outdated
+  maintainers:
+    - pmatthaei@debian.org
+  categories:
+    - net
 - repo: pureos_landing
   subrepo: landing/main
   srcname: bmon
@@ -1038,32 +1088,6 @@
   version: "4.0"
   origversion: 1:4.0-10
   status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "4.0"
-  origversion: 1:4.0-10
-  status: outdated
-  maintainers:
-    - pmatthaei@debian.org
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: bmon
-  binnames:
-    - bmon
-  visiblename: bmon
-  version: "5.0"
-  origversion: 1:5.0-1
-  status: newest
   maintainers:
     - pmatthaei@debian.org
   categories:
@@ -1142,16 +1166,6 @@
     - MIT
   categories:
     - debug
-- repo: starkos
-  subrepo: extra
-  srcname: bmon
-  visiblename: bmon
-  version: "5.0"
-  origversion: 5.0-1
-  status: newest
-  summary: Portable bandwidth monitor and rate estimator
-  maintainers:
-    - starkos@disroot.org
 - repo: t2
   srcname: bmon
   visiblename: bmon
