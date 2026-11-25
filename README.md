@@ -38,7 +38,7 @@ Total: **7,955** lines of code across **48** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,400 · **Forks**: 112 · **Open issues**: 64 · **Contributors**: 21
+- **Stars**: 1,401 · **Forks**: 112 · **Open issues**: 64 · **Contributors**: 21
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **7,955** lines of code across **48** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -61,25 +61,6 @@ Total: **7,955** lines of code across **48** files in the top 5 languages.
 |-------|-----:|--------|
 | [bmon-5.0.tar.gz](https://github.com/tgraf/bmon/releases/download/v5.0/bmon-5.0.tar.gz) | 65.1 KiB | `native/unknown` |
 | [bmon-5.0.zip](https://github.com/tgraf/bmon/releases/download/v5.0/bmon-5.0.zip) | 108.8 KiB | `other` |
-
-## Distribution status
-
-Reported by **106** distros on [repology.org](https://repology.org/project/bmon). **21** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.0` | ✅ latest |
-| Debian 14 | `5.0` | ✅ latest |
-| Debian 13 | `4.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.0` | ⚠️ outdated |
-| Arch | `4.0` | ⚠️ outdated |
-| Homebrew | `5.0` | ✅ latest |
-| Fedora rawhide | `5.0` | ✅ latest |
-| Nix unstable | `4.0` | ⚠️ outdated |
-| Void | `5.0` | ✅ latest |
-| Alpine edge | `4.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.0` | ✅ latest |
 
 ## Improve this data
 
@@ -90,4 +71,4 @@ Install metadata for bmon lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:40:04Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:44:39Z._
